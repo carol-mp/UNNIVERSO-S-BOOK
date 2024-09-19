@@ -43,3 +43,7 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.container__imagem {
+    padding: 1em;
+}
