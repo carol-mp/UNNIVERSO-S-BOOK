@@ -51,8 +51,9 @@
     
 }
 
+/*FORAM FEITAS ALTERAÇÕES AQUI*/
 .lista-menu__item {
-    padding: 1em;
+    padding: 20px;
     color: var(--preto);
     background-color: var(--branco);
 
