@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    color: black;
 }
 
 .container {
@@ -35,7 +36,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
-    background-color: var(--preto);
+    background-color: var(--branco);
     font-weight: 700;
 }
 
