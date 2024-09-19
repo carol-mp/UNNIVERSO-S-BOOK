@@ -10,6 +10,7 @@
 .container {
     display:flex;
     align-items: center;
+    color: black;
 }
 
 .container__botao:checked~.lista-menu{
