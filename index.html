@@ -128,7 +128,31 @@
         </ul>
     </section>
 
-    <!--INICIAR AQUI COM A SECTION CONTATOS E DEPOIS FOOTER-->
+        <section class = "contato">
+
+            <h2 class = "contato__titulo">Fique por dentro das novidades da loja!</h2>
+            <p class = "contato__texto">Atualização de novos livros, ebook's e promoções, você encontra aqui!</p>
+            <input type = "email" placeholder="Cadastre aqui seu email">
+            
+        </section>
+
+        <footer class = "rodape">
+            <h2 class = "rodape__titulo">Obrigada por acessar nosso site! Em breve novidades.</h2>
+
+        </footer>
+
+        <script src = "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+            const swiper = new Swiper (".swiper", {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "bullets",
+            },
+            } ) ;
+        </script>
 
 </body>
 </html>
